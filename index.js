@@ -17,15 +17,19 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  let currentCart = []
   if (cart.length === 0){
     return 'Your cart is empty.'
+  } else if (cart.length === 1) {
+    
   } else {
-    var i;
-    for (i = 0; i < cart.length; i++) { 
+    var i = 0;
+    
+    for (i = 1; i < cart.length; i++) { 
     
     }
-    return 'In your cart, you have'
   }
+  return 'In your cart, you have' + currentCart + '.'
 }
 
 function total() {
