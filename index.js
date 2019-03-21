@@ -23,8 +23,8 @@ function viewCart() {
     var i;
     for (i = 0; i < cart.length; i++) { 
     text += cars[i] + "<br>";
-    return 'In your cart, you have'
     }
+    return 'In your cart, you have'
   }
 }
 
