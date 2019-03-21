@@ -28,7 +28,7 @@ function viewCart() {
       currentCart.push(cart[0].itemName + ' at $' + cart[0].priceOfItem)
     }
     for (i = 1; i < cart.length; i++) { 
-      currentCart.push('and 'cart[i].itemName + ' at $' + cart[i].priceOfItem)
+      currentCart.push('and '+ cart[i].itemName + ' at $' + cart[i].priceOfItem)
     }
   }
   return 'In your cart, you have' + currentCart + '.'
