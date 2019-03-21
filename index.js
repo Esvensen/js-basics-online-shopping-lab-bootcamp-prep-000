@@ -22,7 +22,7 @@ function viewCart() {
   } else {
     var i;
     for (i = 0; i < cart.length; i++) { 
-    text += cars[i] + "<br>";
+    
     }
     return 'In your cart, you have'
   }
