@@ -17,7 +17,15 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  if (cart.length === 0){
+    return 'Your cart is empty.'
+  } else {
+    var i;
+    for (i = 0; i < cart.length; i++) { 
+    text += cars[i] + "<br>";
+    return 'In your cart, you have'
+    }
+  }
 }
 
 function total() {
