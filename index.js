@@ -24,7 +24,9 @@ function viewCart() {
     return 'In your cart, you have ' + cart[0].itemName + ' at $' + cart[0].priceOfItem + '.'
   } else {
     var i = 0;
-    
+    while (i === 0) {
+      currentCart.push(cart[0].itemName + ' at $' + cart[0].priceOfItem)
+    }
     for (i = 1; i < cart.length; i++) { 
     
     }
